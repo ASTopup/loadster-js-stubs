@@ -1,2 +1,4 @@
 0.0.1:
 - Initial Version with bare-bones APi's included
+- LICENSE added
+- Quick cleanup of code, jsdoc and intellisense relateds

@@ -21,4 +21,4 @@ A set of simple stuble to assist Visual Studio Code and Visual Studio with intel
 - Complete Protocol Scripts
 - Clean up Protocol Scripts JSDoc Comments
 
-### License MIT
+### License Apache 2.0
