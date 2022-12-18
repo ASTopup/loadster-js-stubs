@@ -1,24 +1,31 @@
-# loadster-js-stubs
-Loadster.app Javascript stubs to assis intellisense etc.. in VSCode and VS (and many more).
+# TopUp Loadster.app Browser JS Stubs
 
-## loadster-js-stubs
+A collection of stubs for the Browser Scrips on Loadster.app to use on a third party code editor, e.g. Visual Studio Code.
 
-A set of simple stuble to assist Visual Studio Code and Visual Studio with intellisense when it comes to the Javascripting at [Loadster](https://loadster.app)
+## Table of Contents
 
-### Loadster JS Stubs
+- [Installation](#installation)
+- [Usage](#usage)
+- [Support](#support)
+- [Contributing](#contributing)
 
-- Assist VS and VSCode with intellisense and more when it comes to scripting the loadster sctipts.
-- This is still a work in progress.
-- Most info about these scripts, methods and more can be found here [https://loadster.app/manual/](https://loadster.app/manual/).
-- Note its development status.
+## Installation
 
-### Contributing
-- [Loadsterp.app Manual](https://loadster.app/manual/)
+CLone the repository into the project you are working on under a /lib or /helper subdirectory.
 
-### TODO
-- Complete Browser Scripts
-- Clean up Browser Scripts JSDoc Comments
-- Complete Protocol Scripts
-- Clean up Protocol Scripts JSDoc Comments
+```sh
+git clone https://github.com/XXXXX
+```
 
-### License Apache 2.0
+## Usage
+
+Import the module using:
+
+```
+const {bot, browser, http} = require('lib/save/location');
+```
+From there on in you can use the classes as expected with all JSDoc in order (according to the Loadster.app website).
+
+## Support
+
+Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/fraction/readme-boilerplate/compare/).

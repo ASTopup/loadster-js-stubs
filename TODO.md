@@ -1,0 +1,6 @@
+- [x] Bot Class
+- [x] Browser Class
+- [x] Http Class
+- [x] Browser.Keyboard Class
+- [ ] README.md Updated
+- [ ] Other
